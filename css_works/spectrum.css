@@ -1,0 +1,117 @@
+div{
+    border: 2px solid;
+    width: 10%;
+    height: 170px;
+
+}
+.a{
+    background-color:grey;
+    margin-top: 0%;
+    margin-left: 22%;
+}
+.b{
+    background-color: darkolivegreen;
+    margin-top: -174px;
+    margin-left:33%; 
+}
+.c{
+    background-color: springgreen;
+    margin-top: -174px;
+    margin-left: 44%;
+}
+.d{
+    background-color: green;
+    margin-top: -174px;
+    margin-left: 55%;
+}
+.e{
+    background-color: darkgray;
+    margin-top: -174px;
+    margin-left: 66%;
+}
+.f{
+    background-color: rgb(208, 255, 0);
+    margin-top: 16px;
+    margin-left: 11%;
+}
+.g{
+    background-color: rgb(196, 40, 74);
+    margin-top: -174px;
+    margin-left: 22%;
+}
+.h{
+    background-color: rgb(89, 95, 131);
+    margin-top: -174px;
+    margin-left:33%; 
+}
+.i{
+    background-color: rgb(68, 14, 99);
+    margin-top: -174px;
+    margin-left: 44%; 
+}
+.j{
+    background-color: rgb(46, 5, 70);
+    margin-top: -174px;
+    margin-left: 55%;
+}
+.k{
+    background-color: rgb(93, 52, 146);
+    margin-top: -174px;
+    margin-left: 66%; 
+}
+.l{
+    background-color: rgb(107, 101, 101);
+    margin-top: -174px;
+    margin-left: 77%;
+}
+.m{
+    background-color: rgb(103, 191, 226);
+    margin-top: 16px;
+    margin-left: 0%;
+}
+.n{
+    background-color: rgb(201, 230, 74);
+    margin-top: -174px;
+    margin-left: 11%;
+}
+.o{
+    background-color: rgb(207, 165, 48);
+    margin-top: -174px;
+    margin-left: 22%;
+}
+.p{
+    background-color: rgb(172, 20, 83);
+    margin-top: -174px;
+    margin-left: 33%;
+}
+.q{
+    background-color: rgb(56, 48, 48);
+    margin-top: -174px;
+    margin-left: 44%;
+}
+.r{
+    background-color: rgb(39, 208, 214);
+    margin-top: -174px;
+    margin-left: 55%;
+}
+.s{
+    background-color: rgb(16, 179, 138);
+    margin-top: -174px;
+    margin-left: 66%;
+}
+.t{
+    background-color: rgb(16, 27, 179);
+    margin-top: -174px;
+    margin-left: 77%;
+}
+.u{
+    background-color: rgb(56, 40, 99);
+    margin-top: -174px;
+    margin-left: 88%;
+
+}
+body{
+    background-color: black;
+}
+h1{color: white;
+text-align: center;}

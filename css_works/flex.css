@@ -1,0 +1,26 @@
+.parent{
+    width: 460px;
+    height: 310px;
+    background-color: tomato;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: space-around;
+}
+.col{
+    width: 100px;
+    height: 300px;
+}
+.col1{
+    background-color: turquoise;
+}
+.col2{
+    background-color: violet;
+}
+.col3{
+    background-color: wheat;
+}
+.col4{
+    background-color: yellow;
+}
