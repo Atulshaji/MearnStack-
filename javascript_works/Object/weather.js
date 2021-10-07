@@ -35,4 +35,9 @@ for(let data of weather_data){
     }
 }
 
+// console.log(forecast);
+
+//sort wrt temp
+
+Object.entries(forecast).sort((temp1,temp2)=>temp1[1]-temp2[1])
 console.log(forecast);

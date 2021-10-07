@@ -7,6 +7,6 @@ console.log(product.price);
 
 console.log("discount" in product);
 
-product.discount="10%"
+product["discount"]="10%"
 console.log(product);
 

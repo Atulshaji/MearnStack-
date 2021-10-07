@@ -231,8 +231,26 @@ var users=[
     }
   ]
 
-//   var username = users.map(user=>user.username).forEach(user=>console.log(user))
-  // var emailid = users.map(user=>user.email).forEach(email=>console.log(email))
+
+// var login = {}
+// for(let user of users){
+//   let l_username = user.username
+//   let l_email = user.email
+
+//   if(!(l_username in login)){
+//     login[l_username]=l_email
+//   }
+// }
+
 
   //username , zipcode
-  //
+  var login = {}
+for(let user of users){
+  let l_username = user.username
+  let l_zipcode = user.address.zipcode
+
+  if(!(l_username in login)){
+    login[l_username]=l_zipcode
+  }
+}
+console.log(login);
