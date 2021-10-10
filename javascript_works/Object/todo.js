@@ -1208,16 +1208,32 @@ var todos = [
     var detail  = {}
 for (let user of todos){
     let users = user.userId
-    let total=tot
+    let completed=user.completed
     if (users in detail){
-        tot=detail[users]+=1
-        detail[users]={total,finished:2,pending:3}
+        detail[users].total+=1 
+        if(completed==true){
+            detail[users].finished+=1
+        }
+        else {
+            detail[users].pending+=1           
+        }
     }
-    else{
-        
-        detail[users]={total,finished:3,pending:4}
+    else{      
+        detail[users]={} 
+        detail[users].total=1
+        if(completed==true){
+            detail[users].finished=1
+            detail[users].pending=0
+
+        }
+        else {
+            detail[users].finished=0
+            detail[users].pending=1
+        }
     }
 }
+
 console.log(detail);
+
 
 
