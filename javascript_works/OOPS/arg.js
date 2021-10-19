@@ -10,3 +10,5 @@ function getMax(...args){
 }
 console.log(getMax(10,15,20));
 
+
+
